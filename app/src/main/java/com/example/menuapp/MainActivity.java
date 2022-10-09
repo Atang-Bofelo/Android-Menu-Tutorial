@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setTitle("SetUp User");
         builder.setMessage("Enter name");
         EditText usernameInput = new EditText(this);
-        usernameInput.setHint("...your name");
+        usernameInput.setHint("Enter your name");
         usernameInput.setInputType(InputType.TYPE_CLASS_TEXT);
         builder.setView(usernameInput);
         builder.setPositiveButton("OK", (dialogInterface, i) -> {
