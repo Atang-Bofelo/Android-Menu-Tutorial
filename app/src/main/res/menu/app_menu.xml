@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/chg_background"
+                android:title="@string/background">
+                <menu>
+                    <item
+                        android:id="@+id/red_bg"
+                        android:title="@string/red" />
+                    <item
+                        android:id="@+id/green_bg"
+                        android:title="@string/green" />
+                    <item
+                        android:id="@+id/blue_bg"
+                        android:title="@string/blue" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/user_profile"
+                android:title="@string/user" />
+
+        </menu>
+
+    </item>
+
+</menu>

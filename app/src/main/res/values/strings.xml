@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Menu App</string>
+    <string name="back">Back</string>
+    <string name="settings">Settings</string>
+    <string name="background">Background</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="user">User</string>
+    <string name="go_to_mainactivity">Go to MainActivity</string>
+    <string name="stay_on_secondactivity">Stay</string>
+</resources>

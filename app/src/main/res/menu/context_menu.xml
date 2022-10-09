@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/goto_main"
+        android:title="@string/go_to_mainactivity" />
+    <item android:id="@+id/stay_on_second"
+        android:title="@string/stay_on_secondactivity" />
+</menu>
